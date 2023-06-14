@@ -3,6 +3,9 @@ Este projeto tem como objetivo criar uma Data Warehouse para análise das vendas
 
 Ao utilizar a abordagem direta, eliminamos a etapa de stage, o que pode resultar em ganhos de desempenho e redução de complexidade no processo de ETL. No entanto, é importante considerar a qualidade dos dados extraídos e a consistência das transformações realizadas, garantindo que a Data Warehouse seja alimentada com informações confiáveis e precisas.
 
+Para a criação do modelo multidimensional do DW foi escolhido o modelo Estrela, pois é implementado em banco de dados relacional, facilitando a implementação e também por utilizar linguagem SQL para a consulta dos 
+dados. O SGBD escolhido para foi o MySQL versão 8.0.33 um banco de dados opensource, bastante utilizado no mercado. 
+
 ## Requisitos
 * Pentaho Data Integration (PDI) - versão 9.3 
 * PostgreSQL - versão 15.2
