@@ -1,5 +1,5 @@
 # Data Mart - Marketing - Pentaho PDI
-Este projeto tem como objetivo criar um Data Mart para area de Marketing fazer as analises de vendas, leads e conversões. Utilizando a abordagem direta, o Pentaho Data Integration (PDI) é utilizado para realizar a extração, transformação e carga (ETL) dos dados diretamente para o Data Mart, sem a etapa intermediária de stage.
+Este projeto tem como objetivo criar um Data Mart para area de Marketing fazer as analises de vendas. Utilizando a abordagem direta, o Pentaho Data Integration (PDI) é utilizado para realizar a extração, transformação e carga (ETL) dos dados diretamente para o Data Mart, sem a etapa intermediária de stage.
 
 Ao utilizar a abordagem direta, eliminamos a etapa de stage, o que pode resultar em ganhos de desempenho e redução de complexidade no processo de ETL. No entanto, fizemos uma analise minuciosa na qualidade dos dados extraídos e a consistência das transformações realizadas, garantindo que o Data Mart seja alimentado com informações confiáveis e precisas.
 
