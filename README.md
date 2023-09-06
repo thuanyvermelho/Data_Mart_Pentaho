@@ -15,7 +15,7 @@ O projeto é composto por três principais etapas:
 
 1 - **Extração**: Os dados são extraídos diretamente do banco de dados PostgreSQL, que é a fonte de dados principal. As tabelas relevantes são selecionadas e os dados são transferidos para o processo de transformação direto no data mart.<br>
 2 - **Transformação**: Nesta etapa, os dados extraídos são transformados e isso inclui limpeza, padronização, cálculos e criação de tabelas fato e dimensões.<br>
-3 - **Carga no Data Mart**: Após a transformação dos dados, eles são carregados diretamente no data mart. O processo de carga é realizado por meio de um job do PDI, que executa a transformação e atualiza as tabelas do data mart.<br>
+3 - **Carga no Data Mart**: Após a transformação dos dados, eles são carregados diretamente no data mart, no banco de dados MySql. O processo de carga é realizado por meio de um job do PDI, que executa a transformação e atualiza as tabelas do data mart.<br>
 
 ## Estrutura do Repositório
 ***/documentacao**: Contém o backup do Data Mart.<br>
